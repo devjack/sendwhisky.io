@@ -1,0 +1,64 @@
+body.purple-heavy {
+  background-color: #9b4dca;
+  color: #ffffff;
+}
+body.yellow-heavy {
+  background-color: #FFEA06;
+  color: #606c76;
+}
+body.green-heavy {
+  background-color: #05D46B;
+  color: #ffffff;
+}
+body.red-heavy {
+  background-color: #FF4206;
+  color: #E4E4E4;
+}
+
+body.purple-heavy a {
+  color: #ffffff;
+}
+body.yellow-heavy a {
+  color: #606c76;
+}
+body.green-heavy a {
+  color: #ffffff;
+}
+body.red-heavy a {
+  color: #E4E4E4;
+}
+
+
+.splash {
+  width: 60rem;
+  margin: 15rem auto;
+  text-align: center;
+}
+
+.splash-title {
+  font-size: 7rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.splash-subtitle {
+  font-size: 1.8rem;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom:0rem;
+}
+footer>p {
+  width: 30rem;
+  margin: 0 auto;
+}

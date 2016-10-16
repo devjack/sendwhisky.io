@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href='node_modules/milligram/dist/milligram.min.css' rel='stylesheet' type='text/css'>
+  <link href='sendwhisky.css' rel='stylesheet' type='text/css'>
+	<title>sendwhisky.io</title>
+</head>
+
+<body onload="">
+  <div class="splash">
+    <h1 class="splash-title">sendwhisky.io</h1>
+    <h2 class="splash-subtitle">A place for me to do something later sometime maybe.</h2>
+  </div>
+  <footer>
+    <p>&copy; 2016 <a href="https://developerjack.com/" target="_blank" alt="developerjack">Jack Skinner</a></p>
+</footer>
+<script>
+window.onload = function() {
+  var classes = ['yellow', 'purple', 'green', 'red'];
+  var c = classes[Math.floor(Math.random() * classes.length)] + '-heavy';
+  document.body.className = document.body.className+' '+c;
+}
+</script>
+</body>
+<html>
