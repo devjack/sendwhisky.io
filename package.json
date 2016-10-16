@@ -1,11 +1,14 @@
 {
-  "name": "dx.coach",
+  "name": "sendwhisky.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "milligram": "1.1.0"
+  }
 }
